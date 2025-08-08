@@ -1,37 +1,37 @@
 ---
 nav: Components
 group: Provider
-title: Fbl
-atomId: Fbl
+title: Bfl
+atomId: Bfl
 description: https://blackforestlabs.ai
 ---
 
 ## Icons
 
 ```tsx
-import { Fbl } from '@lobehub/icons';
+import { Bfl } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
-export default () => <Fbl size={64} />;
+export default () => <Bfl size={64} />;
 ```
 
 ## Text
 
 ```tsx
-import { Fbl } from '@lobehub/icons';
+import { Bfl } from '@lobehub/icons';
 
-export default () => <Fbl.Text size={48} />;
+export default () => <Bfl.Text size={48} />;
 ```
 
 ## Combine
 
 ```tsx
-import { Fbl } from '@lobehub/icons';
+import { Bfl } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
   <Flexbox gap={16} align={'flex-start'}>
-    <Fbl.Combine size={64} />
+    <Bfl.Combine size={64} />
   </Flexbox>
 );
 ```
@@ -39,13 +39,13 @@ export default () => (
 ## Avatars
 
 ```tsx
-import { Fbl } from '@lobehub/icons';
+import { Bfl } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 export default () => (
   <Flexbox gap={16} horizontal>
-    <Fbl.Avatar size={64} />
-    <Fbl.Avatar size={64} shape={'square'} />
+    <Bfl.Avatar size={64} />
+    <Bfl.Avatar size={64} shape={'square'} />
   </Flexbox>
 );
 ```
@@ -53,14 +53,14 @@ export default () => (
 ## Colors
 
 ```tsx
-import { Fbl } from '@lobehub/icons';
+import { Bfl } from '@lobehub/icons';
 import { Flexbox } from 'react-layout-kit';
 
 import ColorPreview from '../components/ColorPreview';
 
 export default () => (
   <Flexbox gap={16} horizontal>
-    <ColorPreview color={Fbl.colorPrimary} />
+    <ColorPreview color={Bfl.colorPrimary} />
   </Flexbox>
 );
 ```
