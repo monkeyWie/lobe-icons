@@ -72,6 +72,7 @@ export { default as ElevenX, type CompoundedIcon as ElevenXProps } from './Eleve
 export { default as Exa, type CompoundedIcon as ExaProps } from './Exa';
 export { default as Fal, type CompoundedIcon as FalProps } from './Fal';
 export { default as FastGPT, type CompoundedIcon as FastGPTProps } from './FastGPT';
+export { default as Fbl, type CompoundedIcon as FblProps } from './Fbl';
 export { default as Featherless, type CompoundedIcon as FeatherlessProps } from './Featherless';
 export { default as Figma, type CompoundedIcon as FigmaProps } from './Figma';
 export { default as Fireworks, type CompoundedIcon as FireworksProps } from './Fireworks';
